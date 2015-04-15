@@ -39,7 +39,7 @@
             this.metroTabControl.Location = new System.Drawing.Point(24, 110);
             this.metroTabControl.Name = "metroTabControl";
             this.metroTabControl.SelectedIndex = 0;
-            this.metroTabControl.Size = new System.Drawing.Size(679, 280);
+            this.metroTabControl.Size = new System.Drawing.Size(508, 233);
             this.metroTabControl.TabIndex = 0;
             this.metroTabControl.Theme = MetroFramework.MetroThemeStyle.Dark;
             this.metroTabControl.UseSelectable = true;
@@ -51,7 +51,7 @@
             this.metroTabPage1.HorizontalScrollbarSize = 10;
             this.metroTabPage1.Location = new System.Drawing.Point(4, 38);
             this.metroTabPage1.Name = "metroTabPage1";
-            this.metroTabPage1.Size = new System.Drawing.Size(671, 238);
+            this.metroTabPage1.Size = new System.Drawing.Size(500, 191);
             this.metroTabPage1.TabIndex = 0;
             this.metroTabPage1.Text = "Download";
             this.metroTabPage1.Theme = MetroFramework.MetroThemeStyle.Dark;
@@ -71,7 +71,7 @@
             this.txtSearch.PasswordChar = '\0';
             this.txtSearch.ScrollBars = System.Windows.Forms.ScrollBars.None;
             this.txtSearch.SelectedText = "";
-            this.txtSearch.Size = new System.Drawing.Size(590, 23);
+            this.txtSearch.Size = new System.Drawing.Size(419, 23);
             this.txtSearch.TabIndex = 1;
             this.txtSearch.Text = "Search track or insert direct link";
             this.txtSearch.Theme = MetroFramework.MetroThemeStyle.Dark;
@@ -80,7 +80,7 @@
             // btnSearch
             // 
             this.btnSearch.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.btnSearch.Location = new System.Drawing.Point(624, 70);
+            this.btnSearch.Location = new System.Drawing.Point(453, 70);
             this.btnSearch.Name = "btnSearch";
             this.btnSearch.Size = new System.Drawing.Size(75, 23);
             this.btnSearch.TabIndex = 2;
@@ -91,12 +91,14 @@
             // 
             // FormMain
             // 
+            this.AcceptButton = this.btnSearch;
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(726, 413);
+            this.ClientSize = new System.Drawing.Size(555, 366);
             this.Controls.Add(this.btnSearch);
             this.Controls.Add(this.txtSearch);
             this.Controls.Add(this.metroTabControl);
+            this.MinimumSize = new System.Drawing.Size(555, 366);
             this.Name = "FormMain";
             this.ShadowType = MetroFramework.Forms.MetroFormShadowType.AeroShadow;
             this.Text = "SoundCloud Downloader";
