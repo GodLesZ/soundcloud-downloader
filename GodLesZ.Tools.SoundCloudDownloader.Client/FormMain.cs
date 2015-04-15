@@ -18,6 +18,11 @@ namespace GodLesZ.Tools.SoundCloudDownloader.Client {
             InitializeComponent();
         }
 
+
+        private void btnSearch_Click(object sender, EventArgs e) {
+
+        }
+
     }
 
 }
