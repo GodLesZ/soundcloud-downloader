@@ -1,0 +1,60 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.31101.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GodLesZ.Tools.SoundCloudDownloader.Client", "GodLesZ.Tools.SoundCloudDownloader.Client\GodLesZ.Tools.SoundCloudDownloader.Client.csproj", "{FD63CD39-DE4C-4392-BEBF-540A1273EF31}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GodLesZ.Tools.SoundCloudDownloader.Library", "GodLesZ.Tools.SoundCloudDownloader.Library\GodLesZ.Tools.SoundCloudDownloader.Library.csproj", "{67434931-5E80-444A-9211-4F786F56AFF6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MetroFramework", "winforms-modernui\MetroFramework\MetroFramework.csproj", "{BB41AC8B-CBED-4387-A7E0-4567EDB3F57F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "MetraFramework", "MetraFramework", "{966656DE-C03E-4F72-A4B0-6A037192AB9A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MetroFramework.Design", "winforms-modernui\MetroFramework.Design\MetroFramework.Design.csproj", "{7316584D-9A16-4280-A8AB-6D45198C6E4D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MetroFramework.Fonts", "winforms-modernui\MetroFramework.Fonts\MetroFramework.Fonts.csproj", "{5A2FCAE8-C2FA-41BD-90EA-16103EA07B26}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MetroFramework.Demo", "winforms-modernui\MetroFramework.Demo\MetroFramework.Demo.csproj", "{AF988819-4618-4852-9506-C1D06D04F6B2}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FD63CD39-DE4C-4392-BEBF-540A1273EF31}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FD63CD39-DE4C-4392-BEBF-540A1273EF31}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FD63CD39-DE4C-4392-BEBF-540A1273EF31}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FD63CD39-DE4C-4392-BEBF-540A1273EF31}.Release|Any CPU.Build.0 = Release|Any CPU
+		{67434931-5E80-444A-9211-4F786F56AFF6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{67434931-5E80-444A-9211-4F786F56AFF6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{67434931-5E80-444A-9211-4F786F56AFF6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{67434931-5E80-444A-9211-4F786F56AFF6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BB41AC8B-CBED-4387-A7E0-4567EDB3F57F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BB41AC8B-CBED-4387-A7E0-4567EDB3F57F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BB41AC8B-CBED-4387-A7E0-4567EDB3F57F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BB41AC8B-CBED-4387-A7E0-4567EDB3F57F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7316584D-9A16-4280-A8AB-6D45198C6E4D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7316584D-9A16-4280-A8AB-6D45198C6E4D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7316584D-9A16-4280-A8AB-6D45198C6E4D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7316584D-9A16-4280-A8AB-6D45198C6E4D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5A2FCAE8-C2FA-41BD-90EA-16103EA07B26}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5A2FCAE8-C2FA-41BD-90EA-16103EA07B26}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5A2FCAE8-C2FA-41BD-90EA-16103EA07B26}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5A2FCAE8-C2FA-41BD-90EA-16103EA07B26}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AF988819-4618-4852-9506-C1D06D04F6B2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AF988819-4618-4852-9506-C1D06D04F6B2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AF988819-4618-4852-9506-C1D06D04F6B2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AF988819-4618-4852-9506-C1D06D04F6B2}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{BB41AC8B-CBED-4387-A7E0-4567EDB3F57F} = {966656DE-C03E-4F72-A4B0-6A037192AB9A}
+		{7316584D-9A16-4280-A8AB-6D45198C6E4D} = {966656DE-C03E-4F72-A4B0-6A037192AB9A}
+		{5A2FCAE8-C2FA-41BD-90EA-16103EA07B26} = {966656DE-C03E-4F72-A4B0-6A037192AB9A}
+		{AF988819-4618-4852-9506-C1D06D04F6B2} = {966656DE-C03E-4F72-A4B0-6A037192AB9A}
+	EndGlobalSection
+EndGlobal
